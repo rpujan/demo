@@ -12,9 +12,15 @@ useEffect(() => {
             dispatch(generateGoogleReviewResponse(data)))
     }
 }, [dispatch, responseToggle]);
+
+/** test code **/
+console.log('hello from test branch');
+/** test code ends here **/
+
 /** code from main branch **/
 console.log('hello from main');
 /** code ends here **/
+
 useEffect(() => {
     if (googleReviewResponse) {
         setReviewResponse(googleReviewResponse)
