@@ -13,6 +13,10 @@ useEffect(() => {
     }
 }, [dispatch, responseToggle]);
 
+/** test code **/
+console.log('hello from test branch');
+/** test code ends here **/
+
 useEffect(() => {
     if (googleReviewResponse) {
         setReviewResponse(googleReviewResponse)
